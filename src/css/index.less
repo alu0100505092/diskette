@@ -1,1 +1,16 @@
 //out: index.min.css, compress: true, autoprefixer: true
+
+
+
+
+.mixin(@color:black, @wid:50px, @hei:50px){
+  background: @color;
+  width: @wid;
+  height: @hei;
+}
+
+.disk{
+  .mixin(#5cccf2, 200px, 200px);
+  margin: auto;
+  border-radius: : 10%;
+}
